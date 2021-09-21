@@ -1,7 +1,7 @@
 spring:
   application:
-    name: deview-wstat-stream
-    id: deview-wstat-stream
+    name: deview-2021-kafka-streams
+    id: deview-2021-kafka-streams
     state-path: ./state
   kafka:
     bootstrap-servers: test-kafka:9092
