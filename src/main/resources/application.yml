@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: deview-wstat-stream
+    id: deview-wstat-stream
+    state-path: ./state
+  kafka:
+    bootstrap-servers: test-kafka:9092
+    metrics-recording-level: INFO
+    auto-offset-reset: latest
+    num-stream-threads: 1
+    commit-interval-ms: 5000
+    src-topic-name: src-topic
+    dest-topic-name: dest-topic
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      wait-timeout: 10000 # 10 seconds
