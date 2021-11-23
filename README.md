@@ -1,5 +1,5 @@
 # DEVIEW-2021-KAFKA-STREAM
-- DEVIEW 2021 '하루 N억개 웹툰 로그를 처리하는 Realtime Application 만들기' 발표의 DEMO APP
+- DEVIEW 2021 '하루 N억개 웹툰 로그를 처리하는 Realtime Application 만들기' 발표 DEMO APP
 - 발표 상세: https://deview.kr/2021/sessions/441
 
 ### App 구동 상세 스펙
