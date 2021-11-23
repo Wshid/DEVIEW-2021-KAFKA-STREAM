@@ -1,7 +1,6 @@
 # DEVIEW-2021-KAFKA-STREAM
-- DEVIEW 2021 '하루 N억개 웹툰 로그를 처리하는 Realtime Application 만들기' 발표의 DEMO APP 입니다
+- DEVIEW 2021 '하루 N억개 웹툰 로그를 처리하는 Realtime Application 만들기' 발표의 DEMO APP
 - 발표 상세: https://deview.kr/2021/sessions/441
-- 자유롭게 fork하셔서 사용하시면 됩니다.
 
 ### App 구동 상세 스펙
 - apache-kafka : kafka_2.12-2.8.0
@@ -12,7 +11,8 @@
 - ![image](https://user-images.githubusercontent.com/10006290/143026013-4ac715b9-b85e-4a92-9d77-533feeac1204.png)
 
 ### 사전 설정
-- `application.yml`에서 local-kafka(개별 구축하신 kafka) 정보를 입력해주셔야 합니다.
+- `application.yml`에서 local-kafka(개별 구축하신 kafka) 정보 입력
+  - `bootstrap-servers`, `src-topic-name`, `dest-topic-name` 수정 필요
 - ![image](https://user-images.githubusercontent.com/10006290/143025663-e71f66bc-2e3e-4eeb-9661-dcc2264e144a.png)
 
 
